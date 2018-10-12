@@ -109,7 +109,7 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
   let toMute = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
   if(!toMute) return message.channel.sendMessage("**عليك المنشن أولاّ**:x: ");
 
-  let role = message.guild.roles.find (r => r.name === "Muted");
+  let role = message.guild.roles.find (r => r.name === "вαn warning");
   
   if(!role || !toMute.roles.has(role.id)) return message.channel.sendMessage("**لم يتم اعطاء هذه شخص ميوت من الأساس**:x:")
 
