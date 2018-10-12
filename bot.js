@@ -239,8 +239,7 @@ client.on('ready', () => {
     console.log('')
     console.log(`Users! [ " ${client.users.size} " ]`);
     console.log('')
-    console.log('╚[════════════════════════════════════]╝')
-          client.user.setActivity("&help",{type: 'PLAYING'});     //Heeeeeemo    
+    console.log('╚[════════════════════════════════════]╝')     //Heeeeeemo    
 });
 
 
